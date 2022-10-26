@@ -1,8 +1,14 @@
 import React from 'react'
+import './index.css'
 
 function Projects() {
     return (
-        <h2>whoaaa</h2>
+        <div className='container projects-page'>
+            <div className='text'>
+                <h3>Whoa</h3>
+            </div>
+            
+        </div>
     )
 }
 
