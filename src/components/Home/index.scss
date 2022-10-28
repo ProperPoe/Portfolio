@@ -1,6 +1,19 @@
+@import 'animate.css';
+
 .text {
     color: white;
     position: absolute;
     left: 10%;
     top: 10%;
+}
+
+p{
+    color: white;
+    opacity: 0;
+    position: absolute;
+    left: 10%;
+    top: 90%;
+    transform-style: preserve-3d;
+    animation: fadeIn 4.9s forwards;
+    animation-delay: 4.9s;
 }

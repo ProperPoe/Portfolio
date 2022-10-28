@@ -22,12 +22,12 @@ function Sidebar() {
             <ul>
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://github.com/ProperPoe">
-                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" className='icon '/>
+                        <FontAwesomeIcon icon={faGithub} color="aqua" className='icon '/>
                     </a>
                 </li>
                 <li className='linked'>
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/">
-                        <FontAwesomeIcon icon={faLinkedinIn} color="#4d4d4e" className='icon' />
+                        <FontAwesomeIcon icon={faLinkedinIn} color="aqua" className='icon' />
                     </a>
                 </li>
             </ul>
