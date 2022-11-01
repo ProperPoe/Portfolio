@@ -1,10 +1,13 @@
 import React from 'react'
+import './index.scss'
 
 function Contact() {
     return (
         <div className='container projects-page'>
-            <div className='text'>
-                <h1>Yooooo</h1>
+            <div className='contact'>
+                <div className='form-container'>
+                    <h1>Yooooo</h1>
+                </div>  
             </div>
             
         </div>

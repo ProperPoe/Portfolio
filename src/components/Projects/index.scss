@@ -1,0 +1,18 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 485px;
+    height: 200px;
+    margin-top: -100px;
+    overflow: hidden;
+}
+
+@media screen and (max-with: 1000px) {
+    .projects{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+}

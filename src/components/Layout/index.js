@@ -1,6 +1,7 @@
 import './index.scss'
 import Sidebar from '../Sidebar'
 import { Outlet } from 'react-router-dom'
+import Keyboard from '../../assets/fonts/images/keyboard5.jpg'
 
 function Layout(){
     return (
@@ -9,6 +10,7 @@ function Layout(){
             <div className='page'>
                 <Outlet />
             </div>
+            {/*<img src={Keyboard} alt='developer' />*/}
         </div>
     )
 }

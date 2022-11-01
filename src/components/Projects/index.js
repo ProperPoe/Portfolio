@@ -5,7 +5,10 @@ function Projects() {
     return (
         <div className='container projects-page'>
             <div className='text'>
-                <h3>Whoa</h3>
+                <div className='projects'>
+                    <h3>loremskjdslkfjkldjflksjklsdjfklsdjflksjkljdsklfjdskljfkldsjfkldsjfklsdjgklsdjgklsfjklgbjfklgjf</h3>
+                </div>
+                
             </div>
             
         </div>

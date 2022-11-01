@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faComputer, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faComputer, faEnvelope, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 function Sidebar() {
+    const [showNav, setShowNav] = useState(false);
+
+    const handleClick = () => {
+        setShowNav(true)
+    }
+
     return (
         <div className='nav-bar'>
-            <nav>
+            <nav className={showNav ? 'mobile-show' : ''}>
                 <NavLink end to="/" className={({isActive}) => isActive ? "active" : ""} >
                     <FontAwesomeIcon icon={faHome}  />
                 </NavLink>
@@ -16,8 +22,9 @@ function Sidebar() {
                     <FontAwesomeIcon icon={faComputer} />
                 </NavLink>
                 <NavLink end to="/contact" className={({isActive}) => isActive ? "active" : ""}>
-                    <FontAwesomeIcon icon={faEnvelope} />
+                    <FontAwesomeIcon icon={faEnvelope}  />
                 </NavLink>
+                <FontAwesomeIcon onClick={() => setShowNav(false)} icon={faClose} color="#ffd700" size='3x' className='close-mobile-menu' />
             </nav>
             <ul>
                 <li>
@@ -30,7 +37,8 @@ function Sidebar() {
                         <FontAwesomeIcon icon={faLinkedinIn} color="aqua" className='icon' />
                     </a>
                 </li>
-            </ul>
+            </ul>       
+            <FontAwesomeIcon onClick={handleClick} icon={faBars} color="#ffd700" size='3x' className='hamburger-icon' />
         </div>
     )
 }

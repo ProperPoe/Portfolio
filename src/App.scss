@@ -1,3 +1,11 @@
 body {
-    background-color: rgb(12, 12, 39);
+    background-color: rgb(6, 6, 20);
+    //background: url(./assets/fonts/images/keyboard5.jpg);
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+    body{
+        overflow: visible;
+    }
 }

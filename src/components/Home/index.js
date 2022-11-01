@@ -1,5 +1,7 @@
 import React from 'react'
 import './index.scss'
+import { Link } from 'react-router-dom'
+
 
 function Home() {
     return (
@@ -8,9 +10,13 @@ function Home() {
             <div className='text'>
                 <h1>Hello, i'm Steven Trujillo</h1>
                 <h3>Web Developer</h3>
+                <div className='links'>
+                    <Link to="/projects"className='flat-button'>See My Work</Link>
+                    <Link to="/contact" className='flat-button2'>Contact Me</Link>
+                </div>
             </div>
+            
          </div>
-         <p>I've been learning coding languages, and computer programming since July 20th, 2020. Since then i've learned C, C++, Python, Javascript, SQL, HTML, CSS/SASS, ReactJS, MongoDB, ExpressJS, and NodeJS. Although i've mainly focused on Web Development mostly, I have a passion to learn other areas of computer programming.</p>
         </>
     )
 }
