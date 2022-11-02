@@ -1,10 +1,12 @@
 import React from 'react'
 import './index.scss'
+import Keyboard from '../../assets/fonts/images/keyboard2.jpg'
 
 function Projects() {
     return (
-        <div className='container projects-page'>
-            <div className='text'>
+        <div className='projects-page'>
+            <div className='text-project'>
+                <div className='projects-container'>
                 <div className='projects'>
                     <div className='description-skill-container'>
                         <div className='description'>
@@ -39,11 +41,29 @@ function Projects() {
                                     <h5>Redux</h5>
                                 </div> 
                             </div>
+                            <div className='project-links'>
+                                <ul>
+                                    <li>
+                                        <a target="_blank" rel="noreferrer" href="https://github.com/ProperPoe">
+                                            View App
+                                        </a>
+                                    </li>
+                                    <li className='linked'>
+                                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/">
+                                            View Code
+                                        </a>
+                                    </li>
+                                </ul> 
+                            </div>
                         </div>
                     </div>
                 </div>
-                
+                <div className='project-image'>
+                        <img src={Keyboard} />
+                </div>
             </div>
+                
+        </div>
             
         </div>
     )
