@@ -1,8 +1,30 @@
 body {
-    background-color: rgb(6, 6, 20);
-    //background: url(./assets/fonts/images/keyboard5.jpg);
-    overflow: hidden;
+    
 }
+
+.bg-image{
+    
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    isolation: isolate;
+}
+
+.bg-image::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: aqua;
+    opacity: 0.8;
+    background-color: rgb(6, 6, 20);
+    background: url(./assets/fonts/images/keyboard5.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
 
 @media screen and (max-width: 1200px) {
     body{

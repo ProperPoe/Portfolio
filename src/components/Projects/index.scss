@@ -1,11 +1,53 @@
 .projects {
+    background-color: black;
+    color: white;
     display: flex;
-    flex-wrap: wrap;
+    padding: 1rem;
+    text-align: left;
+   //flex-wrap: wrap;
     border: 1px solid;
+    border-color: black;
+    min-width: 485px;
     width: 485px;
     height: 200px;
     margin-top: -100px;
-    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.description{
+    span{
+        font-style: italic;
+    }
+}
+
+.list-skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .skill-divider {
+        display: flex;
+        align-items: center;
+
+        span{
+            display: flex;
+            justify-content: center;
+            border: 1px solid;
+            border-radius: 20px;
+            border-color: black;
+            background: rgb(233, 233, 4);
+            color: black;
+            font-weight: bolder;
+            text-align: center;
+            width: 20px;
+            height: 20px;
+    
+        }
+        h5 {
+            margin-left: 5px;
+        }
+    }
 }
 
 @media screen and (max-with: 1000px) {
