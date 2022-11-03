@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faComputer, faEnvelope, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faComputer, faEnvelope, faBars, faClose, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 function Sidebar() {
@@ -20,6 +20,9 @@ function Sidebar() {
                 </NavLink>
                 <NavLink end to="/projects" className={({isActive}) => isActive ? "active" : ""} >
                     <FontAwesomeIcon icon={faComputer} />
+                </NavLink>
+                <NavLink end to="/about" className={({isActive}) => isActive ? "active" : ""} >
+                    <FontAwesomeIcon icon={faUser} />
                 </NavLink>
                 <NavLink end to="/contact" className={({isActive}) => isActive ? "active" : ""}>
                     <FontAwesomeIcon icon={faEnvelope}  />

@@ -1,18 +1,117 @@
-.form-container {
-    background-color: rgb(5, 5, 27);
-    border: 1px solid;
-    border-color: black;
-    border-radius: 30px;
+@import 'animate.css';
+
+.contact-page{
+    display: flex;
+    justify-content: center;
+    //flex-direction: column;
+    padding: 5rem;
+}
+
+.contact-title {
     color: rgb(233, 233, 4);
-    width: 500px;
-    height: 500px;
+    border-bottom: 3px solid;
+    width: 177px;
+    display: flex;
+    font-size: 1.6rem;
     
 }
 
+.contact-container {
+    margin-top: 50px;
+}
+
 .contact {
+    width: 760px;
+    //align-items: center;
+    //text-align: center;
+    //margin-top: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 1rem;
+    position: relative;
+    text-align: left;
+   //flex-wrap: wrap;
+    border: 1px solid;
+    border-color: black;
+    //min-width: 485px;
+    height: 275px;
+    justify-content: center;
+
+    .question{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        //right: 10%
+    }
+}
+
+.title-contact{
+    color: rgb(233, 233, 4);
+    border: 3px solid;
+    //width: 177px;
+    //display: flex;
+    //justify-content: center;
+    font-size: 1.6rem;
+    width: 600px;
+}
+
+.contact-form{
+    //position: absolute;
+    //right: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-top: 15%;
+    //width: 400px;
+    //margin-bottom: 25px;
+
+    form{
+        //position: relative;
+        margin-top: 300px;
+        margin-right: 750px;
+    }
+
+    ul{
+        //padding: 0;
+        //margin-top: 70px;
+        //margin-right: 250px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        li{
+            margin-bottom: 10px;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+        }
+    }
+}
+
+input[type='text'],
+input[type='subject']{
+    border: 0;
+    background: rgb(24, 18, 18);
+    color: rgb(233, 233, 4);
+    height: 25px;
+}
+
+textarea {
+    border: 0;
+    height: 100px;
+    background: rgb(24, 18, 18);
+    color: rgb(233, 233, 4);
+}
+
+.submit-btn{
+    color: black;
+    cursor: pointer;
+    background: rgb(233, 233, 4);
+    letter-spacing: 3px;
+
+    &:hover{
+        background: aqua;
+        color: black;
+    }
 }
