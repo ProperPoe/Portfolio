@@ -60,6 +60,7 @@
 }
 
 .description{
+    height: 128px;
     span{
         font-style: italic;
     }
@@ -67,6 +68,9 @@
 
 .skills{
     margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .list-skills{
@@ -209,6 +213,7 @@
     }
 
     .description{
+        height: 165px;
         h1{
             text-align: center;
         }
