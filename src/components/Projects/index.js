@@ -76,7 +76,7 @@ function Projects() {
                     <div className='description-skill-container'>
                         <div className='description'>
                             <h1>E-Commerce</h1>
-                            <span>A travel preparation site something about some time or so i dont really know</span>
+                            <span>A travel preparation site something about some boyy ya know time or so i dont really know</span>
                         </div>   
                         <div className='skills'>
                             <h2>Skills</h2>
