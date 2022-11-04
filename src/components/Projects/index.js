@@ -56,7 +56,7 @@ function Projects() {
                                         </a>
                                     </li>
                                     <li className='linked'>
-                                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/">
+                                        <a target="_blank" rel="noreferrer" href="https://github.com/ProperPoe/LandPage-app">
                                             View Code
                                         </a>
                                     </li>
