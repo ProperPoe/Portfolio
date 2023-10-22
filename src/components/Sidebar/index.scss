@@ -115,10 +115,10 @@ ul .icon:hover {
 @media screen and (max-width: 1000px){
     .nav-bar {
         background: transparent;
-        position: initial;
+        position: sticky;
         height: auto;
         min-height: auto;
-
+        width: 100%;
         ul, nav {
             display: none;
         }

@@ -45,22 +45,22 @@
 .projects {
     background-color: black;
     color: white;
-    display: flex;
+    // display: flex;
     padding: 1rem;
-    text-align: left;
+    // text-align: left;
    //flex-wrap: wrap;
     border: 1px solid;
     border-color: black;
     //min-width: 485px;
-    width: 485px;
-    height: 275px;
+    width: 475px;
+    height: 300px;
     //margin-top: -350px;
-    word-wrap: break-word;
+    // word-wrap: break-word;
     position: relative;
 }
 
 .description{
-    height: 128px;
+    // height: 128px;
     span{
         font-style: italic;
     }
@@ -68,16 +68,17 @@
 
 .skills{
     margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
 }
 
 .list-skills{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-
+    flex-wrap: wrap;
+    word-wrap: break-word;
 
     .skill-divider {
         display: flex;
@@ -98,7 +99,7 @@
     
         }
         h5 {
-            margin-left: 2.5px;
+            margin-right: 7.5px;
         }
     }
 }

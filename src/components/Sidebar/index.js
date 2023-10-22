@@ -15,16 +15,16 @@ function Sidebar() {
     return (
         <div className='nav-bar'>
             <nav className={showNav ? 'mobile-show' : ''}>
-                <NavLink end to="/" className={({isActive}) => isActive ? "active" : ""} >
+                <NavLink end to="/" className={({isActive}) => isActive ? "active" : ""} onClick={()=>setShowNav(false)} >
                     <FontAwesomeIcon icon={faHome}  />
                 </NavLink>
-                <NavLink end to="/projects" className={({isActive}) => isActive ? "active" : ""} >
+                <NavLink end to="/projects" className={({isActive}) => isActive ? "active" : ""} onClick={()=>setShowNav(false)} >
                     <FontAwesomeIcon icon={faComputer} />
                 </NavLink>
-                <NavLink end to="/about" className={({isActive}) => isActive ? "active" : ""} >
+                <NavLink end to="/about" className={({isActive}) => isActive ? "active" : ""} onClick={()=>setShowNav(false)} >
                     <FontAwesomeIcon icon={faUser} />
                 </NavLink>
-                <NavLink end to="/contact" className={({isActive}) => isActive ? "active" : ""}>
+                <NavLink end to="/contact" className={({isActive}) => isActive ? "active" : ""} onClick={()=>setShowNav(false)} >
                     <FontAwesomeIcon icon={faEnvelope}  />
                 </NavLink>
                 <FontAwesomeIcon onClick={() => setShowNav(false)} icon={faClose} color="#ffd700" size='3x' className='close-mobile-menu' />
