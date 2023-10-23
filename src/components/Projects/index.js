@@ -1,9 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './index.scss'
-import Keyboard from '../../assets/fonts/images/keyboard2.jpg'
-import Keyboard1 from '../../assets/fonts/images/binary.jpg'
+import Keyboard from '../../assets/fonts/images/Shh.png'
+import Keyboard1 from '../../assets/fonts/images/Screenshot 2023-10-22 183049.png'
+import Picture from './picture'
 
 function Projects() {
+    const [pic, setPic] = useState(null)
+    const [view, setView] = useState(false)
+
+    const handleClick = (e) => {
+        setView(true)
+        setPic(e.target.alt)
+    }
+
+    const closeModal = () => {
+        setView(false);
+        setPic(null);
+    }
+    
+
     return (
         <>
         <div className='projects-page'>
@@ -58,27 +73,28 @@ function Projects() {
                         </div>
                         <div className='project-links'>
                                 <ul>
-                                    <li>
-                                        <a target="_blank" rel="noreferrer" href="https://clip-flow-c44deb5c5c24.herokuapp.com">
+                                <li>
+                                        <a target="_blank" rel="noreferrer" href="https://clip-flow-c44deb5c5c24.herokuapp.com/">
                                             View App
                                         </a>
                                     </li>
                                     <li className='linked'>
-                                        <a target="_blank" rel="noreferrer" href="https://github.com/ProperPoe/LandPage-app">
+                                        <a target="_blank" rel="noreferrer" href="https://github.com/ProperPoe/videoStorage-app.github.io">
                                             View Code
                                         </a>
                                     </li>
+
                                 </ul> 
                             </div>
                     </div>
                 </div>
                 <div className='project-image'>
-                        <img src={Keyboard} />
+                        <img src={Keyboard} alt='clipflow' value="1" onClick={handleClick}/>
                 </div>
             </div>
             <div className='projects-container-flip'>
                 <div className='project-image'>
-                        <img src={Keyboard1} />
+                        <img src={Keyboard1} alt='travel' onClick={handleClick} />
                 </div>
                 <div className='projects'>
                     <div className='description-skill-container'>
@@ -122,7 +138,7 @@ function Projects() {
                                         </a>
                                     </li>
                                     <li className='linked'>
-                                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/">
+                                        <a target="_blank" rel="noreferrer" href="https://github.com/ProperPoe/LandPage-app">
                                             View Code
                                         </a>
                                     </li>
@@ -132,7 +148,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <div className='projects-container'>
+            {/* <div className='projects-container'>
                 <div className='projects'>
                     <div className='description-skill-container'>
                         <div className='description'>
@@ -187,9 +203,10 @@ function Projects() {
                 <div className='project-image'>
                         <img src={Keyboard} />
                 </div>
-            </div>
+            </div> */}
             </div>
         </div>
+        {view === true ? <Picture pic={pic} closeModal={closeModal} /> : ""}
         </>
     )
 }

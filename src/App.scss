@@ -1,4 +1,6 @@
-body {
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .bg-image{
@@ -25,8 +27,8 @@ body {
 
 
 
-@media screen and (max-width: 1200px) {
-    body{
-        overflow: visible;
-    }
-}
+// @media screen and (max-width: 1200px) {
+//     body{
+//         // overflow: visible;
+//     }
+// }
