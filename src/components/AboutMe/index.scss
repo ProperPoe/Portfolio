@@ -191,15 +191,20 @@
         .text-about{
 
             .about-title{
+                border: 1px solid white;
                 position: initial;
                 display: flex;
                 justify-content: center;
                 border-bottom: 3px solid;
                 align-self: center;
+                width: auto;
             }
             .about-container{
                 flex-direction: column;
-        
+                
+                .about{
+                    height: 320px;
+                }
         
                 .about-image{
                     img{

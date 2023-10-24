@@ -58,55 +58,58 @@
     // word-wrap: break-word;
     position: relative;
     .description-skill-container{
-
         .description{
+            border: 1px solid white;
+            height: auto;
             span{
 
                 font-style: italic;
             }
         
         }
-    }
-}
-
-
-.skills{
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    .list-skills{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-wrap: wrap;
-        // // word-wrap: break-word;
-        // width: 300px;
-    
-        .skill-divider {
-             display: flex;
-            align-items: center;
-    
-            span{
+        .skills{
+            border: 1px solid white;
+            margin-top: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            .list-skills{
                 display: flex;
-                justify-content: center;
-                border: 1px solid;
-                border-radius: 20px;
-                border-color: black;
-                background: rgb(233, 233, 4);
-                color: black;
-                font-weight: bolder;
-                text-align: center;
-                width: 20px;
-                height: 20px;
-        
-            }
-            h5 {
-                margin-right: 7.5px;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: wrap;
+                // // word-wrap: break-word;
+                // width: 300px;
+            
+                .skill-divider {
+                     display: flex;
+                    align-items: center;
+            
+                    span{
+                        display: flex;
+                        justify-content: center;
+                        border: 1px solid;
+                        border-radius: 20px;
+                        border-color: black;
+                        background: rgb(233, 233, 4);
+                        color: black;
+                        font-weight: bolder;
+                        text-align: center;
+                        width: 20px;
+                        height: 20px;
+                
+                    }
+                    h5 {
+                        margin-right: 7.5px;
+                    }
+                }
             }
         }
     }
 }
+
+
+
 
 
 .project-image{
@@ -125,9 +128,9 @@
 }
 
 .project-links {
-    border: 1px solid white;
+    // border: 1px solid white;
     ul{
-        border: 1px solid white;
+        // border: 1px solid white;
         position: absolute;
         display: flex;
         bottom: 0;
@@ -208,7 +211,7 @@
                 word-wrap: break-word;
                 position: relative;
                 .skills{
-                    margin-top: 60px;
+                    // margin-top: 60px;
                     h2{
                         text-align: center;
                     }
@@ -253,7 +256,7 @@
             word-wrap: break-word;
             position: relative;
             .skills{
-                margin-top: 90px;
+                // margin-top: 90px;
                 h2{
                     text-align: center;
                 }
@@ -274,7 +277,7 @@
             // }
         }
         flex-direction: column;
-        margin-top: 80px;
+        // margin-top: 80px;
     }
 
     .project-links{
