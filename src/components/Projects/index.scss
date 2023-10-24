@@ -196,49 +196,49 @@
         align-self: center;
     }
     
-    .projects-container{
-        
-            .projects {
-                background-color: black;
-                color: white;
-                display: flex;
-                flex-direction: column;
-                padding: 1rem;
-                text-align: left;
-                width: 370px;
-                min-width: 370px;
-                height: 430px;
-                word-wrap: break-word;
-                position: relative;
-                .skills{
-                    // margin-top: 60px;
-                    h2{
-                        text-align: center;
-                    }
-                    .list-skills{
-                        display: flex;
-                        flex-wrap: wrap;
-                        word-wrap: break-word;
-                        // justify-content: center;
-                        .skill-divider{
-                            word-wrap: break-word;
-                        }
-                    }
-                }
-                // .project-links{
-                //     ul{
-                //         display: flex;
-                //         justify-content: center;
-                //         // align-self: center;
-                //         // align-items: center;
-            
-                //         li:last-child{
-                //             margin-right: 1rem;
-                //         }
-                //     }
-                // }
+    .projects {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: left;
+        width: 370px;
+        min-width: 370px;
+        height: 430px;
+        word-wrap: break-word;
+        position: relative;
+        .skills{
+            // margin-top: 60px;
+            h2{
+                text-align: center;
             }
+            .list-skills{
+                display: flex;
+                flex-wrap: wrap;
+                word-wrap: break-word;
+                // justify-content: center;
+                .skill-divider{
+                    word-wrap: break-word;
+                }
+            }
+        }
+        // .project-links{
+        //     ul{
+        //         display: flex;
+        //         justify-content: center;
+        //         // align-self: center;
+        //         // align-items: center;
+    
+        //         li:last-child{
+        //             margin-right: 1rem;
+        //         }
+        //     }
+        // }
+    }
+    .projects-container{
         flex-direction: column-reverse;
+        
     }
 
     .projects-container-flip{
