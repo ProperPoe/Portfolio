@@ -61,6 +61,9 @@
         .description{
             border: 1px solid white;
             height: auto;
+            h1{
+                border: 1px solid white;
+            }
             span{
 
                 font-style: italic;
@@ -206,20 +209,23 @@
         width: 370px;
         min-width: 370px;
         height: 430px;
-        word-wrap: break-word;
+        // word-wrap: break-word;
         // position: relative;
-        .skills{
-            // margin-top: 60px;
-            h2{
-                text-align: center;
-            }
-            .list-skills{
-                display: flex;
-                flex-wrap: wrap;
-                word-wrap: break-word;
+        .description-skill-container{
+
+            .skills{
                 // justify-content: center;
-                .skill-divider{
-                    word-wrap: break-word;
+                h2{
+                    text-align: center;
+                }
+                .list-skills{
+                    display: flex;
+                    // flex-wrap: wrap;
+                    // word-wrap: break-word;
+                    // justify-content: center;
+                    .skill-divider{
+                        word-wrap: break-word;
+                    }
                 }
             }
         }
