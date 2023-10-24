@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './index.scss'
-import Keyboard from '../../assets/fonts/images/Shh.png'
-import Keyboard1 from '../../assets/fonts/images/Screenshot 2023-10-22 183049.png'
+import Keyboard from '../../assets/fonts/images/Final.png'
+import Keyboard1 from '../../assets/fonts/images/pics.png'
 import Picture from './picture'
 
 function Projects() {
@@ -31,7 +31,8 @@ function Projects() {
                     <div className='description-skill-container'>
                         <div className='description'>
                             <h1>ClipFlow File Storage</h1>
-                            <span>A travel preparation site that uses Openweather API to provide current weather, a flight API to give flight details, and mern stack crud app to share an experience someone has had at some location in the world. This app also uses Unsplash API to provide a random picture for whatever city users search for the weather of.</span>
+                            <span>ClipFlow is a video and image file storage site, that is also used as a social media app with ways to interact with the media, with comments, likes, and notifcations. I used MySQL for the database, and Amazon S3 cloud bucket for the media storage. The URL from the s3 bucket is stored in the database, and used for API retrieval. The app requires authentication, use the test user below... <br/><div style={{fontStyle: 'normal', color: 'rgb(233, 233, 4)'}}>Username: test <br/>Password: test</div> </span>
+                            {/* <span>A travel preparation site that uses Openweather API to provide current weather, a flight API to give flight details, and mern stack crud app to share an experience someone has had at some location in the world. This app also uses Unsplash API to provide a random picture for whatever city users search for the weather of.</span> */}
                         </div>   
                         <div className='skills'>
                             <h2>Skills</h2>
@@ -100,7 +101,9 @@ function Projects() {
                     <div className='description-skill-container'>
                         <div className='description'>
                         <h1>Travel Brochure</h1>
-                        <span>A travel preparation site that uses Openweather API to provide current weather, a flight API to give flight details, and mern stack crud app to share an experience someone has had at some location in the world. This app also uses Unsplash API to provide a random picture for whatever city users search for the weather of.</span>
+                        {/* <span>ClipFlow is a video and image file storage site, that is also used as a social media app with ways to interact with the media, with comments, likes, and notifcations. I used MySQL for the database, and Amazon S3 cloud bucket for the media storage. The URL from the s3 bucket is stored in the database, and used for API retrieval. The app requires authentication, use the test user below... <br/><div style={{fontStyle: 'normal', color: 'rgb(233, 233, 4)'}}>Username: test <br/>Password: test</div> </span> */}
+
+                        <span>A travel brochure preparation site that uses Openweather API to provide current weather, AviationStack API to give flight details, and a MERN stack crud app for users to share photographic experiences from around the world. This app also uses Unsplash API to provide a dynamic random background picture on the weather page, for whatever city is entered into the search. If a city isn't entered, a background image is still retreived based on the keyword, but no weather data. I used MongoDB for the Experiences database.</span>
                         </div>   
                         <div className='skills'>
                             <h2>Skills</h2>

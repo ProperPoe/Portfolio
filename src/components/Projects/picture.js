@@ -1,6 +1,6 @@
 import React from 'react'
-import Keyboard from '../../assets/fonts/images/Shh.png'
-import Keyboard1 from '../../assets/fonts/images/Screenshot 2023-10-22 183049.png'
+import Keyboard from '../../assets/fonts/images/Final.png'
+import Keyboard1 from '../../assets/fonts/images/pics.png'
 import './picture.scss'
 
 function Picture({ pic, closeModal }) {

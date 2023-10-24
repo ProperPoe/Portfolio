@@ -36,7 +36,7 @@ function Sidebar() {
                     </a>
                 </li>
                 <li className='linked'>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/steven-trujillo-109966297">
                         <FontAwesomeIcon icon={faLinkedinIn} color="aqua" className='icon' />
                     </a>
                 </li>

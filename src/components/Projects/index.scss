@@ -52,8 +52,8 @@
     border: 1px solid;
     border-color: black;
     //min-width: 485px;
-    width: 425px;
-    height: 325px;
+    width: 440px;
+    height: 375px;
     //margin-top: -350px;
     // word-wrap: break-word;
     position: relative;
@@ -119,8 +119,8 @@
 
     img{
         cursor: pointer;
-        width: 425px;
-        height: 325px;
+        width: 440px;
+        height: 375px;
     }
 }
 
@@ -201,10 +201,11 @@
                 text-align: left;
                 width: 370px;
                 min-width: 370px;
-                height: 353px;
+                height: 420px;
                 word-wrap: break-word;
                 position: relative;
                 .skills{
+                    margin-top: 60px;
                     h2{
                         text-align: center;
                     }
@@ -233,10 +234,11 @@
             text-align: left;
             width: 370px;
             min-width: 370px;
-            height: 353px;
+            height: 420px;
             word-wrap: break-word;
             position: relative;
             .skills{
+                margin-top: 90px;
                 h2{
                     text-align: center;
                 }
