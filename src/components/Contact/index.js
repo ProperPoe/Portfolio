@@ -22,7 +22,7 @@ function Contact() {
         <>
             <div className='contact-page'>
                 <div className='text-contact'>
-                        <div className='contact-title'>
+                        <div className='contact-words'>
                             <h1>Contact</h1>
                         </div>
                     <div className='contact-container'>
