@@ -125,16 +125,16 @@
 }
 
 .project-links {
-    
+    border: 1px solid white;
     ul{
-        // border: 1px solid white;
+        border: 1px solid white;
         position: absolute;
         display: flex;
         bottom: 0;
         left: 0;
         justify-content: flex-start;
         align-items: center;
-        width: 500px;
+        // width: 500px;
         //margin-left: 1rem;
         li:first-child{
             border: 1px solid;
@@ -184,7 +184,7 @@
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     .title{
         position: initial;
         display: flex;
