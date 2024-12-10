@@ -75,7 +75,7 @@ function Projects() {
                         <div className='project-links'>
                                 <ul>
                                 <li>
-                                        <a target="_blank" rel="noreferrer" href="https://clip-flow-c44deb5c5c24.herokuapp.com/">
+                                        <a target="_blank" rel="noreferrer" href="https://clipflowapp.com">
                                             View App
                                         </a>
                                     </li>
@@ -137,7 +137,7 @@ function Projects() {
                             <div className='project-links'>
                                 <ul>
                                     <li>
-                                        <a target="_blank" rel="noreferrer" href="https://travel-prep-290b6c1204c7.herokuapp.com">
+                                        <a target="_blank" rel="noreferrer" href="http://travelprep.us-east-2.elasticbeanstalk.com">
                                             View App
                                         </a>
                                     </li>
