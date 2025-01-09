@@ -12,7 +12,7 @@ function TravelPrep() {
                 <p>
                     Travel Prep is a full-stack web application designed to help users efficiently plan and organize their trips.
                     It leverages AWS cloud services to provide a secure, scalable, and seamless user experience for itinerary 
-                    management, task tracking, and travel planning.
+                    management, flight tracking, and travel planning.
                 </p>
             </section>
 
