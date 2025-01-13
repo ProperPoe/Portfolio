@@ -34,16 +34,9 @@ function TravelPrep() {
                 </div>
 
                 <div className="feature">
-                    <h3>Secure User Authentication</h3>
-                    <span>
-                        Integrated with AWS Cognito for secure login and user management.
-                    </span>
-                </div>
-
-                <div className="feature">
                     <h3>Seamless Deployment</h3>
                     <span>
-                        The React frontend is hosted on AWS Amplify, ensuring fast, scalable delivery.
+                        The React frontend is hosted on AWS Elastic Beanstalk, ensuring fast, scalable delivery.
                     </span>
                 </div>
 
@@ -58,11 +51,9 @@ function TravelPrep() {
             {/* AWS Services Used */}
             <section className="aws-services">
                 <h2>AWS Services Used</h2>
-                <span>AWS Amplify: Deploys and hosts the React frontend for a fast and responsive UI.</span><br />
                 <span>AWS Elastic Beanstalk: Manages the deployment of the Express.js backend.</span><br />
                 <span>Amazon Route 53: Provides DNS configuration for a custom domain.</span><br />
                 <span>AWS Certificate Manager (ACM): Enables secure HTTPS access with SSL/TLS certificates.</span><br />
-                <span>AWS Cognito: Handles secure user authentication.</span>
             </section>
 
             {/* Tech Stack */}
@@ -71,8 +62,6 @@ function TravelPrep() {
                 <span><strong>Frontend:</strong> React</span><br />
                 <span><strong>Backend:</strong> Express.js (AWS Elastic Beanstalk)</span><br />
                 <span><strong>Database:</strong> MongoDB Atlas</span><br />
-                <span><strong>Authentication:</strong> AWS Cognito</span><br />
-                <span><strong>Hosting:</strong> AWS Amplify</span><br />
                 <span><strong>Custom DNS & SSL:</strong> Amazon Route 53 and ACM</span>
             </section>
 

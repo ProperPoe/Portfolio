@@ -61,7 +61,7 @@ function Projects() {
                     <div className='title'>
                         <h1>Projects</h1>
                     </div>
-                    <div className='projects-container-flip'>
+                <div className='projects-container-flip'>
                 <div className='project-image'>
                         <img src={Trivia} alt='trivia' onClick={handleClick} />
                 </div>
@@ -228,7 +228,7 @@ function Projects() {
                         {/* <span>ClipFlow is a video and image file storage site, that is also used as a social media app with ways to interact with the media, with comments, likes, and notifcations. I used MySQL for the database, and Amazon S3 cloud bucket for the media storage. The URL from the s3 bucket is stored in the database, and used for API retrieval. The app requires authentication, use the test user below... <br/><div style={{fontStyle: 'normal', color: 'rgb(233, 233, 4)'}}>Username: test <br/>Password: test</div> </span> */}
                         {/* <span>ClipFlow is a video and image file storage site, that is also used as a social media app with ways to interact with the media, with comments, likes, and notifcations. I used MySQL for the database, and Amazon S3 cloud bucket for the media storage. The URL from the s3 bucket is stored in the database, and used for API retrieval. The app requires authentication, use the test user below... <br/><div style={{fontStyle: 'normal', color: 'rgb(233, 233, 4)'}}>Username: test <br/>Password: test</div> </span> */}
 
-                        <span>A travel brochure site that uses Openweather API to provide current weather, AviationStack API to give flight details, and a MERN stack crud app for users to share photographic experiences. This app also uses Unsplash API to provide a dynamic random background picture on the weather page, for whatever city is entered into the search. If a city isn't entered, a background image is still retreived based on the keyword, but no weather data. I used MongoDB for the Experiences database.</span>
+                        <span>A travel brochure site that uses Openweather API to provide current weather, AviationStack API to give flight details, and a MERN stack crud app for users to share photographic experiences. This app also uses Unsplash API to provide a dynamic random background picture on the weather page, for whatever city is entered into the search. If a city isn't entered, a background image is still retreived based on the keyword, but no weather data. I used MongoDB for the Experiences database. The app requires authentication... <br/><div style={{fontStyle: 'normal', color: 'rgb(233, 233, 4)'}}>Username: test <br/>Password: test</div> </span>
                         </div>   
                         <div className='skills'>
                             <h2>Skills</h2>
@@ -256,6 +256,18 @@ function Projects() {
                                 <div className='skill-divider'>
                                     <span>√</span>
                                     <h5>Redux</h5>
+                                </div> 
+                                <div className='skill-divider'>
+                                    <span>√</span>
+                                    <h5>AWS Elastic Beanstalk</h5>
+                                </div> 
+                                <div className='skill-divider'>
+                                    <span>√</span>
+                                    <h5>AWS Route 53</h5>
+                                </div> 
+                                <div className='skill-divider'>
+                                    <span>√</span>
+                                    <h5>AWS Certificate Manager</h5>
                                 </div> 
                             </div>
                             <div className='project-links'>
