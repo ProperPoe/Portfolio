@@ -103,12 +103,12 @@ function Projects() {
                             <div className='project-links'>
                                 <ul>
                                     <li>
-                                        <a target="_blank" rel="noreferrer" href="http://travelprep.us-east-2.elasticbeanstalk.com">
+                                        <a target="_blank" rel="noreferrer" href="https://main.d157strcljw05z.amplifyapp.com">
                                             View App
                                         </a>
                                     </li>
                                     <li className='linked'>
-                                        <a target="_blank" rel="noreferrer" href="https://github.com/ProperPoe/LandPage-app">
+                                        <a target="_blank" rel="noreferrer" href="https://github.com/ProperPoe/trivia-game">
                                             View Code
                                         </a>
                                     </li>
